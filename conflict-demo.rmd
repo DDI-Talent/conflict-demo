@@ -9,11 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ## Variables - changed weight to lower
 
 ```{r}
 height <- 1.70
 weight <- 50
+
 BMI <- weight/height^2
 ```
 

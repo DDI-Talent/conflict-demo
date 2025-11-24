@@ -1,0 +1,19 @@
+---
+title: "Demonstration of git conflict"
+author: "Kasia Banas"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Variables
+
+```{r}
+height <- 1.70
+weight <- 60
+BMI <- weight/height^2
+```
+

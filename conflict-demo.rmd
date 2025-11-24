@@ -9,11 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Variables - changed weight to higher
+## Variables - changed weight back to 60
 
 ```{r}
 height <- 1.70
-weight <- 100
+weight <- 60
 BMI <- weight/height^2
 ```
 
